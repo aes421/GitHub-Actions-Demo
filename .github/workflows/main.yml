@@ -27,3 +27,6 @@ jobs:
     
     - name: Build Angular Application      
       run: npm run build:prod
+
+    - name: Lint Angular Application
+      run: npm run lint
