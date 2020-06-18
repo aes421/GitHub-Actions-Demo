@@ -30,3 +30,6 @@ jobs:
 
     - name: Lint Angular Application
       run: npm run lint
+    
+    - name: Run Angular unit tests
+      run: npm run ci-test
